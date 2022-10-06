@@ -1,22 +1,13 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import PostList from './komponent/Post';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src="https://suliada.files.wordpress.com/2020/08/logo-pdi-vector-logo-pdi-png-logo-pdi-cdr-logo-pdi-corel-logo-pdi-ai-logo-pdi-pdf.png?w=627" className="App-logo" alt="logo" />
+        <PostList/>
       </header>
     </div>
   );
